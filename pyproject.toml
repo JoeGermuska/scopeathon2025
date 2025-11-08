@@ -1,0 +1,16 @@
+[project]
+name = "cooperation-racine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=1.1.1",
+    "requests>=2.32.5",
+    "matplotlib>=3.10.7",
+    "folium>=0.20.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
